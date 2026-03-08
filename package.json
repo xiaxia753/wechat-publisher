@@ -1,0 +1,34 @@
+{
+  "name": "wechat-publisher",
+  "version": "1.0.0",
+  "description": "自动发布微信公众号文章。支持上传封面图、创建草稿、发布文章到微信公众号。",
+  "main": "scripts/api.js",
+  "scripts": {
+    "publish": "node scripts/publish.js"
+  },
+  "keywords": [
+    "wechat",
+    "wechat-official-account",
+    "wechat-mp",
+    "publisher",
+    "automation"
+  ],
+  "author": "Tony",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiaxia753/wechat-publisher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xiaxia753/wechat-publisher/issues"
+  },
+  "homepage": "https://github.com/xiaxia753/wechat-publisher#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "scripts/",
+    "SKILL.md",
+    "README.md"
+  ]
+}
